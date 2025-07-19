@@ -1,0 +1,17 @@
+Demo Login Credentials for Stock Portfolio App
+
+Use the following credentials to log in as a demo:
+
+Username: demo  
+Password: demo123
+
+You can:
+- Log in to view the portfolio dashboard
+- Add stocks with price and quantity
+- Delete existing stocks
+- View the total investment and live pie chart
+
+Note:
+Please do not use sensitive data. This is a sample app for demonstration purposes.
+
+If needed, visit the /register page to create your own account.

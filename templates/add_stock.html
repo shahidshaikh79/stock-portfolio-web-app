@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+body { background: #e3e9f7 !important; }
+.center-form {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-form {
+    background: #fff;
+    padding: 2.5rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 2px 24px rgba(36,100,207,0.09);
+    min-width: 350px;
+}
+</style>
+<div class="center-form">
+  <div class="card-form">
+    <h2 class="mb-4 text-center">Add a Stock</h2>
+    <form method="POST">
+      <input name="symbol" class="form-control mb-3" placeholder="Stock Symbol" autocomplete="off" required>
+      <input name="name" class="form-control mb-3" placeholder="Company Name" autocomplete="off" required>
+      <input name="price" type="number" step="0.01" class="form-control mb-3" placeholder="Price (₹)" required>
+      <input name="quantity" class="form-control mb-4" placeholder="Quantity" type="number" required>
+      <button class="btn btn-primary w-100" type="submit">Add Stock</button>
+    </form>
+  </div>
+</div>
+{% endblock %}
