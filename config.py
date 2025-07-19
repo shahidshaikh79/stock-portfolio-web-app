@@ -4,5 +4,5 @@ class Config:
     SECRET_KEY = '26cf4d935493308bb08dec5cbed73807feb405552e6d66150818edbf16eee7ad'
     SQLALCHEMY_DATABASE_URI = 'sqlite:///portfolio.db'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    ALPHA_VANTAGE_API_KEY = '01HTHRYQ6WY2KNQ2'  # replace with your real API key
+    ALPHA_VANTAGE_API_KEY = '01HTHRYQ6WY2KNQ2'  
 
