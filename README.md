@@ -22,6 +22,9 @@ You can register your own account too!
 - Bootstrap 5 (UI)
 - Chart.js (Graphs)
 
+---
+**🔗 Live app:** [https://stock-portfolio-web-app.onrender.com](https://stock-portfolio-web-app.onrender.com)
+---
 
 
 
